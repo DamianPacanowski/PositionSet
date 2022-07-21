@@ -1,5 +1,5 @@
 # PositionsCatch
-# You can use for any securietes coding
+# For any securietes coding
 # To use:
 <code>include('../positions.catch.php');</code>
 
