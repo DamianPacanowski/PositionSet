@@ -1,7 +1,7 @@
 # PositionsCatch
 # You can use for any securietes codding
 # To use:
-<code>include('positions.catch.php');</code>
+<code>include('../positions.catch.php');</code>
 
 <code>$positions_set = new positions;</code>
 
