@@ -62,13 +62,14 @@
 			elseif(( $this->action == 0 )&&($this->type == 0))
 			{
 				$_SIEC =$this->net;
-				$_Ex=EXPLODE('000',$this->string);
-				$_liczby=$_Ex[0];
-				$_strlen_liczb=$_Ex[1];
+				$_strlen_liczb=stristr($this->string,'000');
+				$_sliczby=str_replace('0','',$_strlen_liczb);
+				$xxx='000'.$_strlen_liczb;
+				$_liczby=str_replace($xxx,'',$this->string);
 				$_CHARACTERS=NULL;
 				$noxe=null;
 				$_liczbyxv=null;
-				$_splxx1=str_split($_strlen_liczb);
+				$_splxx1=str_split($_sliczby);
 				foreach($_splxx1 as $noxs)
 				{
 					$noxe+=$noxs;
