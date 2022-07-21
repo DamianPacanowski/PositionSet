@@ -61,16 +61,12 @@
 					$output=$this->fbit;
 				}
 			}
-			elseif( $this->action == 0 )
+			elseif(( $this->action == 0 )&&($this->type == 0))
 			{
 				$_SIEC =$this->net;
-				
-				if($this->type == 0)
-				{
-					$_Ex=EXPLODE('000',$this->string);
-					$_liczby=$_Ex[0];
-					$_strlen_liczb=$_Ex[1];
-				}
+				$_Ex=EXPLODE('000',$this->string);
+				$_liczby=$_Ex[0];
+				$_strlen_liczb=$_Ex[1];
 				$_CHARACTERS=NULL;
 				$noxe=null;
 				$_liczbyxv=null;
