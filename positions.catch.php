@@ -24,8 +24,6 @@
 			{
 				return false; 
 			}
-			
-			
 		}
 		private function CatchPositions() 
 		{
