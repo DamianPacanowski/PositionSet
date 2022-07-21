@@ -5,4 +5,6 @@
 
 <code>$positions_set = new positions;</code>
 
-<code>$email=$positions_set->catch('string positioning',0,1,'string positioned');</code>
+<code>$positions=$positions_set->catch('string positioning',0,1,'string positioned');</code>
+
+You can get 4 responds:
