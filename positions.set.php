@@ -22,11 +22,11 @@
 			} 
 			else 
 			{
-		    return false; 
+				return false; 
+			}
+			
+			
 		}
-
-
-	    }
 		private function CatchPositions() 
 		{
 			if( $this->action == 1 ) 
@@ -47,7 +47,7 @@
 				}
 				$this->position = $POSITION;
 				$this->fbit = $FBIT;
-
+				
 				if($this->type == 0)
 				{
 					$output=$this->position.'000'.$this->fbit;
@@ -64,7 +64,7 @@
 			elseif( $this->action == 0 )
 			{
 				$_SIEC =$this->net;
-
+				
 				if($this->type == 0)
 				{
 					$_Ex=EXPLODE('000',$this->string);
