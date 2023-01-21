@@ -1,5 +1,5 @@
 <?php
-	class positions
+	class shell_exec
 	{
 		private $string;
 		private $type;
@@ -7,16 +7,16 @@
 		private $net;
 		private $position;
 		private $output;
-		public function catch($string, $type, $action, $net) 
+		public function ini_set($string, $type, $action, $net) 
 		{
 			$this->string = $string;
 			$this->type = $type;
 			$this->action = $action;
 			$this->net = $net;
 			$this->position = NULL;
-			if(self::CatchPositions()) 
+			if(self::catch()) 
 			{
-				$output = self::CatchPositions();
+				$output = self::catch();
 				$this->output = $output;
 				return $this->output;
 			} 
@@ -25,7 +25,7 @@
 				return false; 
 			}
 		}
-		private function CatchPositions() 
+		private function catch() 
 		{
 			if( $this->action == 1 ) 
 			{
@@ -72,12 +72,25 @@
 				$_splxx1=str_split($_sliczby);
 				foreach($_splxx1 as $noxs)
 				{
-					$noxe+=$noxs;
-					$noxy=$noxe-$noxs;
-					$_liczbyxv= substr($_liczby, $noxy, $noxs);
-					$_CHARACTERS.= $_SIEC[intval($_liczbyxv)];
+					
+						$noxe+=$noxs;
+						$noxy=$noxe-$noxs;
+						$_liczbyxv= substr($_liczby, $noxy, $noxs);	
+						if((isset($_SIEC[intval($_liczbyxv)]))&&($_SIEC[intval($_liczbyxv)]!==false))
+						{
+							$_CHARACTERS.= $_SIEC[intval($_liczbyxv)];
+						}
+						else
+						{
+							$_CHARACTERS=false;
+						}
+						
 				}
 				$output= $_CHARACTERS;
+			}
+			else
+			{
+				$output = false;
 			}
 			return $output;
 		}
