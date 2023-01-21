@@ -1,4 +1,4 @@
-# block-chain-php
+# block-chain.php
 # for any securities coding
 # to use:
 
