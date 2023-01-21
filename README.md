@@ -3,7 +3,7 @@
 # to use:
 
 
-    include('../coder.php');
+    include('../block-chain.php');
     $run = new shell_exec;
     $block-chain=$run->ini_set('chain',0,0,'block');
     $block-chain=$run->ini_set('block',0,1,'chain');
