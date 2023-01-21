@@ -1,5 +1,5 @@
 # block-chain-php
-# For any securities coding
+# for any securities coding
 # To use:
 
 
