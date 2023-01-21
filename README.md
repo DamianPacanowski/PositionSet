@@ -5,11 +5,11 @@
 
     include('../block-chain.php');
     $run = new shell_exec;
-# decode get string:
+# get string (decode):
     $string=$run->ini_set('block-chain',0,0,'chain');
-# encode get block-chain:
+# get block-chain (encode):
     $block-chain=$run->ini_set('block',0,1,'chain');
-# encode get block 1:
+# get block 1 (encode):
     $block-chain=$run->ini_set('block',1,1,'chain');
-# encode get block 2:
+# get block 2 (encode):
     $block-chain=$run->ini_set('block',2,1,'chain');
