@@ -1,6 +1,6 @@
-block-chain.php
-for any securities coding
-to use:
+simple create a .js file and enter below code
+
+in code downloading values is "blocks" and chain
 
 
     include('../block-chain.php');
