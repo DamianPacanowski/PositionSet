@@ -1,8 +1,5 @@
 simple create a .php file and enter below code
 
-in code downloading values is "blocks" and chain
-
-
     include('../block-chain.php');
     $run = new shell_exec;
     
