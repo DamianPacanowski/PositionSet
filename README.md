@@ -1,15 +1,15 @@
-# block-chain.php
-# for any securities coding
-# to use:
+block-chain.php
+for any securities coding
+to use:
 
 
     include('../block-chain.php');
     $run = new shell_exec;
-# get string (decode):
+get string (decode):
     $string=$run->ini_set('blocks',0,0,'chain');
-# get blocks (encode):
+get blocks (encode):
     $block=$run->ini_set('string',0,1,'chain');
-# get block 1 (encode):
+get block 1 (encode):
     $block=$run->ini_set('string',1,1,'chain');
-# get block 2 (encode):
+get block 2 (encode):
     $block=$run->ini_set('string',2,1,'chain');
