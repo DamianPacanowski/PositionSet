@@ -18,3 +18,9 @@ get block 1 (encode):
 get block 2 (encode):
 
     $block=$run->ini_set('string',2,1,'chain');
+
+'blocks' 
+two type of number , separated by a dot . form the coordinates of the encoded letters in chain
+
+'chain'
+kombinacja znaków, cyfr, liter, tworzących łańcuch sieci  
