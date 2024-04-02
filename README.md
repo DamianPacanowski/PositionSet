@@ -1,6 +1,6 @@
 simple create a .php file and enter below code
 
-    include('../block-chain.php');
+    include('../blockchain.php');
     $run = new shell_exec;
     
 get string (decode):
