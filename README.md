@@ -23,4 +23,4 @@ get block 2 (encode):
 two type of number , separated by a dot . form the coordinates of the encoded letters in chain
 
 'chain'
-kombinacja znaków, cyfr, liter, tworzących łańcuch sieci  
+a combination of characters, numbers, letters that create a chain of networks
