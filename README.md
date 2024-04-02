@@ -23,4 +23,7 @@ get block 2 (encode):
 two type of number , separated by a dot . form the coordinates of the encoded letters in chain
 
 'chain'
-a combination of characters, numbers, letters that create a chain of networks
+a combination of characters, numbers, letters that create a chain of network stam for coding moment
+
+'string'
+any text you want to encode, no breaks, standard ro 32 string
