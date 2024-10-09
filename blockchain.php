@@ -1,4 +1,5 @@
 <?php
+	#[AllowDynamicProperties]
 	class shell_exec
 	{
 		private $string;
